@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ux.ed.team/css/styles.css?201803301710">
+    <title>Proyecto POO</title>
+</head>
+<body>
+    <div style="margin-left: 4rem;">
+        <h1>Cursos</h1>
+    </div>
+    <form action="" id="clases">
+        <div class="ed-grid m-grid-4">
+            <div class="form-item">
+                <label for="">
+                    Nombre
+                    <input type="text" name="nombreCurso" required>
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="">
+                    Poster
+                    <input type="text" name="posterCurso" required>
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="">
+                    Clases
+                    <input type="number" min="1" name="claseCurso" required>
+                </label>
+            </div>
+            <div class="form-item m-py-3">
+                <input class="button" type="submit" value="Crear Curso">
+            </div>
+        </div>
+    </form>
+    <div id="curso" class="ed-grid m-grid-4 s-grid-2">
+
+    </div>
+    <!-- Registro de personas -->
+    <div style="margin-left: 4rem;">
+        <h1>Alumnos</h1>
+    </div>
+    <form action="" id="persona">
+        <div class="ed-grid m-grid-4">
+            <div class="form-item">
+                <label for="">
+                    Nombre
+                    <input type="text" name="nombrePersona" required>
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="">
+                    Telefono
+                    <input type="text" name="telefonoPersona" required>
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="">
+                    Edad
+                    <input type="number" min="15" name="edadPersona" required>
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="">
+                    Padre
+                    <input type="text" name="padrePersona" required>
+                </label>
+            </div>
+            <div class="form-item m-py-3">
+            <input class="button" type="submit" value="Crear Curso">
+            </div>
+        </div>
+    </form>
+    <div id="personas" class="ed-grid m-grid-4 s-grid-2">
+
+    </div>
+    <script type="module" src="./script/index.js"></script>
+</body>
+</html>
